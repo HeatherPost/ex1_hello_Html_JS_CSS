@@ -64,7 +64,7 @@ function demoConsoleFuncInner(inp1) {
     console.debug('myGlobalFunc_A console.debug');
     console.trace('myGlobalFunc_A console.trace');
     console.log('myGlobalFunc_A console.log' + inp1); // NOTE_3 basically equivalent to console.info
-    console.log('myGlobalFunc_A console.log' + "Hi I am a new comment"); //NOTE to try
+    console.log("Hi I am a new comment"); //Test note
 }
 
 // NOTE variables decleration is "hoisted", but NOT their value (initialization takes place when below line executes. So any code above this line relying on hoisted variable's value will get "undefined" as its value)
